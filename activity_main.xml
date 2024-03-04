@@ -1,70 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/e2"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:divider="@color/black"
-    android:orientation="vertical"
-    android:rotation="0"
-    android:rotationX="0"
-    android:rotationY="0"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+   >
 
-    <Button
-        android:id="@+id/b1"
-        android:layout_width="match_parent"
-        android:layout_height="82dp"
-        android:gravity="center"
-        android:text="1" />
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
 
-    <Button
-        android:id="@+id/b2"
-        android:layout_width="match_parent"
-        android:layout_height="82dp"
-        android:text="2" />
-
-    <Button
-        android:id="@+id/b3"
-        android:layout_width="match_parent"
-        android:layout_height="82dp"
-        android:text="3" />
-
-    <Button
-        android:id="@+id/b4"
-        android:layout_width="match_parent"
-        android:layout_height="82dp"
-        android:text="4" />
-
-    <Button
-        android:id="@+id/b5"
-        android:layout_width="match_parent"
-        android:layout_height="82dp"
-        android:text="5" />
-
-    <Button
-        android:id="@+id/b6"
-        android:layout_width="match_parent"
-        android:layout_height="82dp"
-        android:text="6" />
-
-    <Button
-        android:id="@+id/b7"
-        android:layout_width="match_parent"
-        android:layout_height="82dp"
-        android:text="7" />
-
-    <Button
-        android:id="@+id/b8"
-        android:layout_width="match_parent"
-        android:layout_height="82dp"
-        android:text="8" />
-
-    <EditText
-
-        android:id="@+id/e1"
-        android:layout_width="398dp"
-        android:layout_height="62dp" />
-
-</LinearLayout>
+    <TextView
+        android:id="@+id/button2"
+        android:layout_width="100dp"
+        android:layout_height="31dp"
+        android:layout_centerInparent="true"
+        android:text="Button" />
+</FrameLayout>
